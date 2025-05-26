@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Join Our Telegram Channel</title>
+  <link rel="icon" href="https://telegram.org/img/t_logo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: url('https://images.unsplash.com/photo-1522199710521-72d69614c702?auto=format&fit=crop&w=1470&q=80') no-repeat center center fixed;
+      background-size: cover;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Segoe UI', sans-serif;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    .glass-card {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(15px);
+      -webkit-backdrop-filter: blur(15px);
+      border-radius: 20px;
+      padding: 50px;
+      text-align: center;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    }
+
+    .glass-card img {
+      width: 100px;
+      margin-bottom: 20px;
+    }
+
+    .glass-card h1 {
+      color: #ffffff;
+      font-size: 24px;
+      margin-bottom: 30px;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    }
+
+    .button-glow {
+      background: #0088cc;
+      color: white;
+      padding: 15px 40px;
+      font-size: 18px;
+      border-radius: 10px;
+      text-decoration: none;
+      box-shadow: 0 0 20px #0088cc, 0 0 60px #0088cc;
+      transition: all 0.4s ease-in-out;
+      animation: glow 2s infinite alternate;
+      display: inline-block;
+    }
+
+    .button-glow:hover {
+      background: #007ab8;
+      box-shadow: 0 0 30px #00c3ff, 0 0 80px #00c3ff;
+    }
+
+    @keyframes glow {
+      from {
+        box-shadow: 0 0 10px #0088cc, 0 0 30px #0088cc;
+      }
+      to {
+        box-shadow: 0 0 20px #00c3ff, 0 0 50px #00c3ff;
+      }
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="glass-card">
+    <img src="https://telegram.org/img/t_logo.png" alt="Telegram Icon">
+    <h1>Join Our Private Telegram Channel</h1>
+    <a class="button-glow" href="https://t.me/+LIpNvURn_z80YmM1">Join Channel</a>
+  </div>
+</body>
+</html>
